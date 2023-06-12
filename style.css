@@ -1,0 +1,49 @@
+.canteiner{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto; 
+    padding-top: 50px;
+}
+.canculator{
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.output {
+    width: 230px;
+    height: 70px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+color: #171515;
+font-size: 25px;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+padding-bottom: 10px;
+padding-right: 10px;
+padding-left: 10px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+overflow: hidden;
+}
+.btnbox {
+    display: flex;
+    padding: 18px; 
+}
+.btn {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    box-shadow: rgba(58, 187, 88, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.btn:active{
+    background-color: #fff;
+}
+
+body{
+    background-color: #171515;
+}
